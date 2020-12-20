@@ -4,7 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <title>Banking System</title>
+    <style>
+        header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+    color:rebeccapurple;
+}
+
+span{
+    color:white ;
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+li{
+    display:inline-block;
+    padding: 15px 15px;
+}
+
+a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+}
+a:hover{
+    color:springgreen;
+    transition: 0.5s;
+}
+    </style>
 </head>
 <header>
    <h1>MONEY<span>BANK</span></h1>
